@@ -1,0 +1,69 @@
+//state
+const state = {
+    state_tabs: 0,
+    monthThai: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+    monthList:[
+        {
+            id:1,
+            name:'มกราคม',
+            name_en:'January',
+        },
+        {
+            id:2,
+            name:'กุมภาพันธ์',
+            name_en:'February',
+        },
+        {
+            id:3,
+            name:'มีนาคม',
+            name_en:'March',
+        },
+        {
+            id:4,
+            name:'เมษายน',
+            name_en:'April',
+        },
+        {
+            id:5,
+            name:'พฤษภาคม',
+            name_en:'May',
+        },
+        {
+            id:6,
+            name:'มิถุนายน',
+            name_en:'June',
+        },
+        {
+            id:7,
+            name:'กรกฎาคม',
+            name_en:'July',
+        },
+        {
+            id:8,
+            name:'สิงหาคม',
+            name_en:'August',
+        },
+        {
+            id:9,
+            name:'กันยายน',
+            name_en:'September',
+        },
+        {
+            id:10,
+            name:'ตุลาคม',
+            name_en:'October',
+        },
+        {
+            id:11,
+            name:'พฤศจิกายน',
+            name_en:'November',
+        },
+        {
+            id:12,
+            name:'ธันวาคม',
+            name_en:'December',
+        },
+    ],
+}
+
+export default state
